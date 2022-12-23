@@ -5,11 +5,10 @@
     font-weight: 900;
     font-size: 54px;
     line-height: 58px;
-    align-self: left;
     color: #FFFFFF;
   }
 
-@media (min-width: 425px) and (max-width: 768px) {
+@media (max-width: 767px) {
     .intro__title {
         font-size: 45px;
         line-height: 45px;

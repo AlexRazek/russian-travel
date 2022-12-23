@@ -6,7 +6,7 @@
   color: #FFFFFF;
 }
 
-@media (min-width: 426px) and (max-width: 768px) {
+@media (max-width: 767px) {
   .footer__author {
     line-height: 17px;
     font-size: 15px;
@@ -14,7 +14,7 @@
 }
 
 
-@media (max-width: 426px) {
+@media (max-width: 425px) {
   .footer__author {
     line-height: 16px;
     font-size: 14px;

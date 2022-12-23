@@ -8,13 +8,13 @@
     align-items: baseline;
 }
   
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (max-width: 1023px) {
     .footer__columns {
       width: calc(100% - 48px);
     }
   }
   
-@media (min-width: 426px) and (max-width: 768px) {
+@media (max-width: 767px) {
     .footer__columns {
       flex-direction: column;
       width: calc(100% - 134px);
@@ -23,12 +23,8 @@
     }
   }
   
-@media (max-width: 426px) {
+@media (max-width: 425px) {
     .footer__columns {
       margin: 0;
-      flex-direction: column;
-      width: calc(100% - 134px);
-      margin-left: 16px;
-      margin-bottom: 24px;
     }
   }

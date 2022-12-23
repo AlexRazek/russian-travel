@@ -14,23 +14,21 @@
     color: #FFFFFF;
 }
 
-@media (min-width: 1024px) and (max-width: 1280px) {
+@media (max-width: 1279px) {
     .cover__title {
         margin-top: 195px;
-        width: 560px;
-        height: 152px;
+        /* width: 560px;
+        height: 152px; */
       }
     } 
 
-
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (max-width: 1023px) {
     .cover__title {
         margin-top: 115px;
-    
       }
     } 
   
-@media (min-width: 425px) and (max-width: 768px) {
+@media (max-width: 767px) {
     .cover__title {
         font-size: 32px;
         width: 288px;
@@ -42,10 +40,10 @@
   
 @media (max-width: 425px) {
     .cover__title {
-        font-size: 32px;
-        line-height: 35px;
+        /* font-size: 32px;
+        line-height: 35px; */
         margin-top: 33px;
-        width: 288px;
-        height: 70px;
+        /* width: 288px;
+        height: 70px; */
     }
   }  

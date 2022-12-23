@@ -9,22 +9,18 @@
     list-style-type: none;
   }
 
-@media (min-width: 426px) and (max-width: 768px) {
+@media (max-width: 767px) {
     .footer__column-links {
       flex-direction: column;
       line-height: 25px;
       font-size: 25px;
-      font-weight: 400;
       margin-bottom: 24px;
     }
   }
   
-@media (max-width: 426px) {
+@media (max-width: 425px) {
     .footer__column-links {
-      flex-direction: column;
       line-height: 24px;
       font-size: 24px;
-      font-weight: 400;
-      margin-bottom: 24px;
     }
   }

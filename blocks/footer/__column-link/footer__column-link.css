@@ -13,7 +13,7 @@
     opacity: 0.8;
 } 
 
-@media (min-width: 426px) and (max-width: 768px) {
+@media (max-width: 767px) {
     .footer__column-link {
         margin-bottom: 35px;
     }
@@ -23,7 +23,7 @@
     }
   }
   
-@media (max-width: 426px) {
+@media (max-width: 425px) {
     .footer__column-link {
         margin-bottom: 32px;
     }

@@ -5,16 +5,9 @@
     place-self: start start;
 }
 
-@media (min-width: 425px) and (max-width: 768px) {
+@media (max-width: 767px) {
     .place__image {
-        grid-column: 1;
         grid-row: 3;
     }
   }
   
-  @media (max-width: 425px) {
-    .place__image {
-        grid-column: 1;
-        grid-row: 3;
-    }
-  }

@@ -7,7 +7,7 @@
     margin: 0;
 }
 
-@media (min-width: 425px) and (max-width: 768px) {
+@media (max-width: 767px) {
     .place__website {
         grid-column: 1;
         grid-row: 2;
@@ -16,8 +16,6 @@
 
 @media (max-width: 425px) {
     .place__website {
-        grid-column: 1;
-        grid-row: 2;
         margin: 0 16px;
     }
   }
