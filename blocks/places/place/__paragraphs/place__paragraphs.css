@@ -11,13 +11,12 @@
         grid-column: 1;
         grid-row: 4;
     }
-  } 
+  }
 
 
 @media (max-width: 425px) {
     .place__paragraphs {
         grid-column: 1;
         grid-row: 4;
-        /* margin-left: 16px; */
     }
   } 

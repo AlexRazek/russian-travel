@@ -12,12 +12,11 @@
         line-height: 100%;
         margin-left: 0;
     }
-  } 
-
+  }
 
 @media (max-width: 425px) {
     .place__website_url-reading {
         line-height: 100%;
         margin-left: 0;
     }
-  } 
+  }

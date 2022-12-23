@@ -5,23 +5,23 @@
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
   padding: 0;
-  margin-bottom: 92px; 
+  margin-bottom: 92px;
 }
 
 
 @media (min-width: 1024px) and (max-width: 1280px) {
   .cover__container {
     margin: 0;
-    width: 100%; 
-    margin-bottom: 92px; 
+    width: 100%;
+    margin-bottom: 92px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .cover__container {
     margin: 0;
-    width: 100%; 
-    margin-bottom: 88px; 
+    width: 100%;
+    margin-bottom: 88px;
   }
 }
 
@@ -29,15 +29,15 @@
   .cover__container {
     margin: 0;
     width: 100%;
-    margin-bottom: 80px; 
+    margin-bottom: 80px;
   }
 }
 
 @media (max-width: 426px) {
   .cover__container {
     margin: 0;
-    width: 100%; 
-    margin-bottom: 64px; 
+    width: 100%;
+    margin-bottom: 64px;
   }
 }
 

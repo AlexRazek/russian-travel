@@ -10,11 +10,11 @@
         grid-column: 1;
         grid-row: 3;
     }
-  } 
+  }
   
   @media (max-width: 425px) {
     .place__image {
         grid-column: 1;
         grid-row: 3;
     }
-  } 
+  }

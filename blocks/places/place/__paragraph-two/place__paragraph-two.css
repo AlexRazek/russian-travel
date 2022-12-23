@@ -14,11 +14,11 @@
         font-weight: 400;
         margin-bottom: 25px;
     }
-  } 
+  }
 
 
  @media (max-width: 425px) {
     .place__paragraph-two {
         margin-left: 16px;
     }
-  }  
+  }

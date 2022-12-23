@@ -18,7 +18,7 @@
         line-height: 60px;
         text-align: center;
       }
-    } 
+    }
 
 @media (max-width: 425px) {
     .lead__title {
@@ -29,4 +29,4 @@
         line-height: 44px;
         text-align: center;
       }
-    }  
+    }
