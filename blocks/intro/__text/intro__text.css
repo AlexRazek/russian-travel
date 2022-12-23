@@ -1,0 +1,29 @@
+.intro__text {
+    width: 100%;
+    margin-bottom: 33px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 163%;
+    /* text-align: left; */
+    align-self: left;
+    color: #FFFFFF;
+  }
+
+
+/* @media (min-width: 768px) and (max-width: 1024px) {
+    .intro__text {
+        text-align: left;
+      }
+    } 
+
+@media (min-width: 425px) and (max-width: 768px) {
+    .intro__text {
+        text-align: left;
+      }
+    } 
+
+@media (max-width: 425px) {
+    .intro__text {
+        text-align: left;
+      }
+    }  */

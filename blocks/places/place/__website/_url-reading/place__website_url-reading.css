@@ -1,0 +1,21 @@
+.place__website_url-reading {
+    font-size: 12px;
+    line-height: 170%;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: #AAAAAA;
+    margin-bottom: 12px;
+}
+
+@media (min-width: 425px) and (max-width: 768px) {
+    .place__website_url-reading {
+        line-height: 100%;
+    }
+  } 
+
+
+@media (max-width: 425px) {
+    .place__website_url-reading {
+        line-height: 100%;
+    }
+  } 

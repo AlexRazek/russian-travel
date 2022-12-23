@@ -1,0 +1,35 @@
+.footer__column-link {
+    margin: 0;
+    margin-right: 18px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer__column-link:nth-last-child(5) {
+    margin-right: 0;
+} 
+
+.footer__column-link:hover {
+    opacity: 0.8;
+} 
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .footer__column-link {
+        margin-bottom: 35px;    
+    }
+
+    .footer__column-link:nth-last-child(5) {
+        margin-bottom: 50px;
+    }
+  }
+  
+@media (max-width: 426px) {
+    .footer__column-link {
+        margin-bottom: 32px; 
+    }
+
+    .footer__column-link:nth-last-child(5) {
+        margin-bottom: 48px;
+    }
+  }
+
