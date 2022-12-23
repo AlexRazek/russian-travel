@@ -1,5 +1,5 @@
 .place__paragraph-own {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     margin-bottom: 26px;
     font-size: 18px;
@@ -24,12 +24,10 @@
         font-weight: 400;
   
     }
-  } 
+  }  */
   
   @media (max-width: 425px) {
     .place__paragraph-own {
-        font-size: 16px;
-        line-height: 163%;
-        font-weight: 400;
+        margin-left: 16px;
     }
-  }  */
+  }  

@@ -2,6 +2,7 @@
     background: url("/images/logo_header.svg");
     width: 176px;
     height: 52px;
+    z-index: 2;
 }
 
 @media (max-width: 425px) {
