@@ -1,13 +1,19 @@
 .place__paragraphs {
+    display: flex;
+    /* font-size: 0; */
     margin: 0;
     grid-column: 2;
     grid-row: 2;
     place-content: start start;
+    /* justify-content: space-between; */
 }
 
 @media (max-width: 767px) {
     .place__paragraphs {
+        /* word-wrap: break-word; */
         grid-column: 1;
         grid-row: 4;
+        /* hyphens: auto; */
+        /* margin-bottom: 50px; */
     }
   }

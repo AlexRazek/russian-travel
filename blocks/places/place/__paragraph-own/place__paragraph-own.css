@@ -1,6 +1,7 @@
 .place__paragraph-own {
+    /* display:flex; */
     margin: 0 auto;
-    padding: 0;
+    /* width: 100%; */
     margin-bottom: 26px;
     font-size: 18px;
     line-height: 163%;
@@ -17,6 +18,15 @@
   
 @media (max-width: 425px) {
     .place__paragraph-own {
+        white-space: pre-line;
+        align-self: flex-start;
+        /* word-wrap: break-word; */
+        /* width: 100%; */
+        /* word-wrap: break-word; */
+        /* word-break:break-all; */
+        /* margin-top: 0; */
         margin-left: 16px;
+        margin-right: 16px;
+        margin-bottom: 25px;
     }
   }

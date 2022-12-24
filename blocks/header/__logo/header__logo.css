@@ -7,9 +7,9 @@
 
 @media (max-width: 425px) {
     .header__logo {
-        width: 11em;
-        /* width: 142px; */
-        height: 3.4em;
-        /* height: 42px; */
+        /* width: 11em; */
+        width: 142px;
+        /* height: 3.4em; */
+        height: 42px;
     }
   } 
