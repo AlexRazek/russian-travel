@@ -1,5 +1,5 @@
 .header__logo {
-    background: url("../images/logo_header.svg");
+    background: url('./images/logo_header.svg'); 
     background-size: cover;
     width: 176px;
     height: 52px;
@@ -15,6 +15,5 @@
         width: 142px;
         /* height: 3.4em; */
         height: 42px;
-        overflow: clip;
     }
   } 
