@@ -1,8 +1,12 @@
 .header__logo {
     background: url("/images/logo_header.svg");
+    background-size: cover;
     width: 176px;
     height: 52px;
     z-index: 2;
+    /* overflow: clip; */
+    /* object-fit: cover; */
+    /* overflow: visible; */
 }
 
 @media (max-width: 425px) {
@@ -11,5 +15,6 @@
         width: 142px;
         /* height: 3.4em; */
         height: 42px;
+        overflow: clip;
     }
   } 

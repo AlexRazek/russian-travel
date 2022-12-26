@@ -7,20 +7,16 @@
     font-size: 16px;
     font-weight: 400;
     list-style-type: none;
+    
   }
 
 @media (max-width: 767px) {
     .footer__column-links {
       flex-direction: column;
+      min-height: 248px;
+      justify-content: space-between;
       line-height: 25px;
       font-size: 25px;
-      margin-bottom: 24px;
-    }
-  }
-  
-@media (max-width: 425px) {
-    .footer__column-links {
-      line-height: 24px;
-      font-size: 24px;
+      margin-bottom: 48px;
     }
   }

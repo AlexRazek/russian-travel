@@ -9,6 +9,10 @@
     color: #FFF;
 }
 
+.place__paragraph-own:nth-last-child(1) {
+    margin-bottom: 0;
+}
+
 @media (max-width: 1023px) {
     .place__paragraph-own {
         font-size: 16px;
