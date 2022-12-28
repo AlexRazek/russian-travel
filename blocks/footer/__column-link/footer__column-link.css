@@ -1,8 +1,9 @@
 .footer__column-link {
-    margin: 0;
+    /* margin: 0; */
     margin-right: 18px;
     text-decoration: none;
     color: #fff;
+
 }
 
 .footer__column-link:nth-last-child(5) {

@@ -32,7 +32,6 @@
   .header__container {
       width: calc(100% - 32px);
       margin-top: 16px;
-      margin-bottom: 48px;
     }
   }
 

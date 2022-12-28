@@ -1,0 +1,13 @@
+.header__lang-link_active {
+    width: 30px;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+
+
+@media (max-width: 425px) {
+  .header__lang-link_active {
+    width: 22px;
+    border-bottom: 1.5px solid #E5E5E5;
+  }
+}

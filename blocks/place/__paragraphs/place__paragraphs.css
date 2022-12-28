@@ -1,9 +1,10 @@
 .place__paragraphs {
-    display: flex;
+    display: grid;
     /* font-size: 0; */
     margin: 0;
     grid-column: 2;
     grid-row: 2;
+    row-gap: 26px;
     place-content: start start;
     /* justify-content: space-between; */
 }

@@ -1,14 +1,16 @@
-.place__website_url-reading {
+.place__website-url {
+    margin: 0;
     font-size: 12px;
     line-height: 170%;
     font-weight: 400;
     letter-spacing: 2px;
     color: #AAAAAA;
-    margin-bottom: 12px;
+    /* margin-bottom: 12px; */
+    text-transform: uppercase;
 }
 
 @media (max-width: 767px) {
-    .place__website_url-reading {
+    .place__website-url {
         line-height: 100%;
         margin-left: 0;
     }

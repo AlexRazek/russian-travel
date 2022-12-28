@@ -13,10 +13,11 @@
 @media (max-width: 767px) {
     .footer__column-links {
       flex-direction: column;
-      min-height: 248px;
-      justify-content: space-between;
+      margin: 0;
+      padding: 0;
       line-height: 25px;
       font-size: 25px;
+      padding-bottom: 40px;
       margin-bottom: 48px;
     }
   }

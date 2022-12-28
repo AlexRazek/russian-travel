@@ -1,5 +1,5 @@
-@import url(../styles/normalize.css);
-@import url(../styles/fonts/fonts.css);
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
 
 @import url(../blocks/root/root.css);
 @import url(../blocks/link/link.css);
@@ -8,7 +8,7 @@
 @import url(../blocks/header/__container/header__container.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
-@import url(../blocks/header/__lang-link/_eng-style/header__lang-link_eng-style.css);
+@import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
 
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__container/lead__container.css);
@@ -31,20 +31,19 @@
 
 @import url(../blocks/places/places.css);
 @import url(../blocks/places/__container/places__container.css);
-@import url(../blocks/places/place/place.css);
-@import url(../blocks/places/place/__title/place__title.css);
-@import url(../blocks/places/place/__image/place__image.css);
-@import url(../blocks/places/place/__website/place__website.css);
-@import url(../blocks/places/place/__website/_url-reading/place__website_url-reading.css);
-@import url(../blocks/places/place/__website/_link/place__website_link.css);
-@import url(../blocks/places/place/__paragraphs/place__paragraphs.css);
-@import url(../blocks/places/place/__paragraph-own/place__paragraph-own.css); 
-@import url(../blocks/places/place/__paragraph-two/place__paragraph-two.css);
+
+@import url(../blocks/place/place.css);
+@import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__website/place__website.css);
+@import url(../blocks/place/__website-url/place__website-url.css);
+@import url(../blocks/place/__website-link/place__website-link.css);
+@import url(../blocks/place/__paragraphs/place__paragraphs.css);
+@import url(../blocks/place/__paragraph/place__paragraph.css); 
 
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__background/cover__background.css);
 @import url(../blocks/cover/__container/cover__container.css);
-@import url(../blocks/cover/__overlay/cover__overlay.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 
