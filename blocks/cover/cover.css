@@ -4,6 +4,7 @@
 
 .cover {
   margin: 0 auto;
+  position: relative;
   width: calc(100% - 96px);
   align-items: center;
   padding: 0;

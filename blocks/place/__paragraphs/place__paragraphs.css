@@ -6,15 +6,11 @@
     grid-row: 2;
     row-gap: 26px;
     place-content: start start;
-    /* justify-content: space-between; */
 }
 
 @media (max-width: 767px) {
     .place__paragraphs {
-        /* word-wrap: break-word; */
         grid-column: 1;
         grid-row: 4;
-        /* hyphens: auto; */
-        /* margin-bottom: 50px; */
     }
   }

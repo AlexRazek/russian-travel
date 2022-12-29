@@ -13,8 +13,8 @@
 
 @media (max-width: 425px) {
     .header__lang-link {
-        width: 22px;
-        font-size: 18px;
-        line-height: 20px;
+      width: 22px;
+      font-size: 18px;
+      line-height: 20px;
     }
   } 

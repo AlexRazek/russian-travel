@@ -11,18 +11,18 @@
 
 @media (max-width: 767px) {
     .lead__title {
-        max-width: 500px;
-        margin-bottom: 26px;
-        font-size: 60px;
-        line-height: 60px;
+      max-width: 500px;
+      margin-bottom: 26px;
+      font-size: 60px;
+      line-height: 60px;
       }
     }
 
 @media (max-width: 425px) {
     .lead__title {
-        max-width: 288px;
-        margin-bottom: 16px;
-        font-size: 40px;
-        line-height: 44px;
+      max-width: 288px;
+      margin-bottom: 16px;
+      font-size: 40px;
+      line-height: 44px;
       }
     }
